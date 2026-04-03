@@ -104,3 +104,6 @@ loan-default-prediction-kenya/
 ## 👤 Author
 
 Data Analyst Portfolio Project
+## 📓 Project Notebook
+View full analysis in the notebook:
+[Open Notebook](./notebooks/Loan_Default_Analysis.ipynb)
