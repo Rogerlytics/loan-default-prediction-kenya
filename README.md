@@ -1,23 +1,106 @@
-# 💰 Loan Default Prediction (Kenya)
+# 💰 Loan Default Prediction Model (Kenya)
 
 ## 📌 Project Overview
 
-This project aims to predict whether a customer will default on a logbook loan using machine learning techniques.
+This project builds a machine learning model to predict loan default risk for logbook loans in Kenya. The goal is to help financial institutions identify high-risk borrowers and reduce lending losses.
 
-## 🎯 Objective
+---
 
-To help lending institutions reduce risk by identifying high-risk borrowers before issuing loans.
+## 🎯 Business Problem
+
+Lenders in Kenya face significant risk when issuing logbook loans. This project uses data analysis and machine learning to:
+
+* Identify high-risk customers
+* Understand factors influencing default
+* Improve lending decisions
+
+---
 
 ## 📊 Dataset
 
-The dataset used in this project is synthetically generated to simulate real-world lending scenarios in Kenya, including customer income, vehicle characteristics, and loan details.
+The dataset simulates real-world lending scenarios and includes:
+
+* Customer income
+* Employment type
+* Loan details
+* Vehicle information
+* Previous loan history
+
+---
 
 ## 🛠 Tools & Technologies
 
 * Python (Pandas, NumPy)
-* Scikit-learn
-* Matplotlib / Seaborn
+* Seaborn & Matplotlib (Visualization)
+* Scikit-learn (Machine Learning)
+* Jupyter Notebook / Google Colab
 
-## 🚧 Status
+---
 
-Project setup in progress...
+## 🔍 Exploratory Data Analysis (EDA)
+
+Key findings:
+
+* Lower income customers have higher default rates
+* Informal employment increases risk
+* Older vehicles correlate with higher defaults
+* High loan-to-value ratio strongly increases risk
+
+---
+
+## 🤖 Machine Learning Models
+
+### 1. Logistic Regression
+
+* Baseline model for prediction
+
+### 2. Random Forest (Final Model)
+
+* Improved accuracy
+* Captures complex patterns
+
+---
+
+## 📈 Key Insights
+
+* Loan-to-value ratio is the strongest predictor
+* Previous defaults significantly increase risk
+* Income level affects repayment ability
+
+---
+
+## 💼 Business Impact
+
+This model can help:
+
+* Reduce loan default rates
+* Improve credit risk assessment
+* Support better lending decisions
+
+---
+
+## 📂 Project Structure
+
+```
+loan-default-prediction-kenya/
+│
+├── data/
+├── notebooks/
+├── visuals/
+├── src/
+└── README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Use real financial datasets
+* Deploy model as a web app
+* Add more advanced models (XGBoost)
+
+---
+
+## 👤 Author
+
+Data Analyst Portfolio Project
